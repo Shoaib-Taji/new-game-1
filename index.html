@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+    /* style the canvas */
+        canvas {
+            border: 1px solid #aecfa9;
+            background-color: #d6f1d3;
+            margin-top: 3%;
+            box-shadow: inset 7px 12px 16px #ebfbea,
+                        inset 7px 12px 16px #ebfbea,
+                        inset -3px -2px 8px #9caf9a,
+                        inset -6px -8px 8px #9caf9a,
+                        2px 4px 8px #b0c4ae;
+            border-radius: 10px;
+        }
+        kbd{
+            display: block;
+            line-height: 1.5;
+        }
+    </style>
+    </head>
+    <body onload="startGame()" onkeydown="keyPress(event)"  onkeyup="stopMove()">
+
+        
+
+        <!-- <br>
+        <kbd>For move Up, Click the ArrowUp</kbd>
+        <kbd>For move Down, Click the ArrowDown</kbd>
+        <kbd>For move Left, Click the ArrowLeft</kbd>
+        <kbd>For move Right, Click the ArrowRight</kbd> -->
+
+        <!-- core script file for start the game -->
+        <script src="script/app.js"></script>
+    </body>    
+</html>
